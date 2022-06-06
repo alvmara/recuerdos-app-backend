@@ -19,6 +19,7 @@ const { ForbiddenException } = require('./services/auth');
  */
 const app = express();
 
+
 app.use(cors({ origin: '*' }));
 app.use(logger('dev'));
 app.use(express.json());
